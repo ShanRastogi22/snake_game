@@ -23,15 +23,32 @@
 }
 
 .head{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     border-radius: 40%;
 }
 .snake{
-    background-color:purple;
+    background-color:rgb(255, 0, 255);  
     border-radius: 50%;
 }
 
 .food {
-    background-color: blue;
+    background-color: rgb(67, 67, 255);
     border-radius: 50%;
+}
+
+#scoreBox  {
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#hiscoreBox 
+{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
 }
